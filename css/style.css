@@ -16,6 +16,7 @@
 }
 
 header {
+  padding-top: 29px;
   background: url("../img/header/header-bg.png") no-repeat center center;
 }
 
@@ -57,10 +58,6 @@ header {
   src: url("../fonts/Proxima Nova Black/?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Black/ProximaNova-Black.woff") format("woff"), url("../fonts/Proxima Nova Black/ProximaNova-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
-
-.navbar {
-  padding-top: 30px;
 }
 
 .navbar::before {
