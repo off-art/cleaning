@@ -1,4 +1,40 @@
-body {
-  font-family: sans-serif;
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/Proxima Nova Light/ProximaNova-Light.eot");
+  src: url("../fonts/Proxima Nova Light/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Light/ProximaNova-Light.woff") format("woff"), url("../fonts/Proxima Nova Light/") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url("../fonts/Proxima Nova Regular/");
+  src: url("../fonts/Proxima Nova Regular/?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Regular/ProximaNova-Regular.woff") format("woff"), url("../fonts/Proxima Nova Regular/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("../fonts/Proxima Nova Bold/");
+  src: url("../fonts/Proxima Nova Bold/?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Bold/ProximaNova-Bold.woff") format("woff"), url("../fonts/Proxima Nova Bold/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url("../fonts/Proxima Nova Semibold/");
+  src: url("../fonts/Proxima Nova Semibold/?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Semibold/ProximaNova-Semibold.woff") format("woff"), url("../fonts/Proxima Nova Semibold/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Black';
+  src: url("../fonts/Proxima Nova Black/");
+  src: url("../fonts/Proxima Nova Black/?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Black/ProximaNova-Black.woff") format("woff"), url("../fonts/Proxima Nova Black/ProximaNova-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 /*# sourceMappingURL=style.css.map */
