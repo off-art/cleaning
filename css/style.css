@@ -20,6 +20,18 @@ header {
   background: url("../img/header/header-bg.png") no-repeat center center;
 }
 
+.owl-nav {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  bottom: 400px;
+}
+
 @font-face {
   font-family: 'Proxima Nova Light';
   src: url("../fonts/Proxima Nova Light/ProximaNova-Light.eot");
@@ -310,5 +322,39 @@ header {
   border-radius: 23px;
   -webkit-box-shadow: 0 0 13px rgba(30, 144, 200, 0.9);
           box-shadow: 0 0 13px rgba(30, 144, 200, 0.9);
+}
+
+.certificates {
+  background-color: #fbfbfb;
+  padding-top: 105px;
+  padding-bottom: 85px;
+}
+
+.certificates__title {
+  width: 649px;
+  text-align: center;
+  color: #000;
+  line-height: 40px;
+  font-size: 30px;
+  font-family: 'Proxima Nova Bold';
+  margin: auto;
+  position: relative;
+  margin-bottom: 43px;
+}
+
+.certificates__title::after {
+  position: absolute;
+  content: '';
+  width: 60px;
+  height: 6px;
+  background: url("../img/certificates/after.png");
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.certificates__title_blue {
+  color: #1e90c8;
 }
 /*# sourceMappingURL=style.css.map */
