@@ -1,0 +1,46 @@
+.type
+  &-work
+    &-box
+      margin-top: 110px
+      margin-bottom: 110px
+      display: flex
+      justify-content: space-between
+      // background: url('../img/type-work/bg.png') no-repeat -10% 100%
+    &__item
+      cursor: pointer
+      &:hover
+        .imgs
+          border: 5px solid $green-br
+        .item
+          &__subtitle
+            color: $green-br
+          &__button
+            background-color: $green-br
+            box-shadow: 0 0 13px rgba(148,204,47, .7)
+
+.imgs
+    border: 5px solid $text-blue
+    border-radius: 50%
+.item
+  &__img
+    margin-bottom: 35px
+  &__subtitle
+    color: $text-blue
+    width: 245px
+    font-size: 20px
+    font-family: 'Proxima Nova Regular', sans-serif
+    font-weight: 700
+    text-align: center
+    margin-bottom: 30px
+  &__button
+    border: none
+    display: block
+    margin: auto
+    background-color: $text-blue
+    color: $white
+    width: 174px
+    height: 45px
+    border-radius: 23px
+    box-shadow: 0 0 13px rgba(30, 144, 200, .9)
+
+    
